@@ -2,21 +2,23 @@
 <html>
     <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="lab7.css">
-    <title>Task 7</title>
-    <script src = "lab7.js"></script>
+    <link rel="stylesheet" href="lab8.css">
+    <title>Task 8</title>
+    <script src = "lab8.js"></script>
     </head>
     <body>
-        <div class = "count">
-            <input type = "text" id = "vlue">
-            <input type = id = "frst">
-            <button class = "" onclick = "circlef()">↑</button>
-            <button class = "" onclick = "trianglef()">↓</button>
-            <button class = "" onclick = "trianglef()">x</button>
+      <div class = "origin" >
+        <div class = "count" index = "0">
+            <input type = "text" class = "vlue" id = "vlue">
+            <input type = "text" class = "text" id = "frst">
+            <button class = "" onclick = "upper(this)">↑</button>
+            <button class = "" onclick = "downer(this)">↓</button>
+            <button class = "" onclick = "remover(this)">x</button>
         </div>
+      </div>
       <div class = "container">
-        <button class = "" onclick = "circlef()">Добавить элемент</button>
-        <button class = "" onclick = "trianglef()">Сохранить</button>
+        <button class = "" onclick = "adder()">Добавить элемент</button>
+        <button class = "" onclick = "saver()">Сохранить</button>
       </div>
 
     </body>
